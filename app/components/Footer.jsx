@@ -1,7 +1,7 @@
 'use client'
 import styles from '../ui/Footer.module.css' 
 import { useDispatch, useSelector } from "react-redux"
-import { buyLemon, sellLemonade } from "../redux/LemonadeSlice"
+import { buyLemon, sellLemonade } from "../redux/Lemonadeslice"
 import CartList from "../components/CartList"  
 export default function Footer(){
   const dispatch = useDispatch()

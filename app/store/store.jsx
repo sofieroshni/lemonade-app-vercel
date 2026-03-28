@@ -1,5 +1,5 @@
 import { configureStore, createSlice } from '@reduxjs/toolkit'
-import lemonadeReducer from '../redux/LemonadeSlice'
+import lemonadeReducer from '../redux/Lemonadeslice'
 import cartReducer from '../redux/cartSlice'
 export const store = configureStore({
   reducer: {

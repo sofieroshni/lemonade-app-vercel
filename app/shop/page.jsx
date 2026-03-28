@@ -1,7 +1,9 @@
 'use client'
+
+
 import styles from '../../ui/Shop.module.css'
 import { useDispatch, useSelector } from 'react-redux'
-import { setLoading, setCocktails, setError } from '../../redux/LemonadeSlice'
+import { setLoading, setCocktails, setError } from '../../redux/Lemonadeslice'
 import { useState, useEffect } from 'react'
 import { addTooCart, removeItem } from '../../redux/cartSlice'
 // import {Buttons} from '/../components/Buttons'
