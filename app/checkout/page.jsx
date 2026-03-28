@@ -1,7 +1,7 @@
 'use client'
 
 import { useSelector } from 'react-redux'
-import styles from '../../ui/Shop.module.css'
+import styles from '../ui/Shop.module.css'
 
 
 export default function Checkout() {

@@ -56,8 +56,8 @@
 // }
 'use client'
 
-import CartPageContent from '../../components/CartPagContent'
-import styles from '../../ui/Shop.module.css'
+import CartPageContent from '../components/CartPagContent'
+import styles from '../ui/Shop.module.css'
 
 
 export default function Cart() {
